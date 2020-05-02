@@ -31,7 +31,7 @@ function getTasks(){
   }
 
   tasks.forEach(function(task){
-    // Create li element
+  // Create li element
   const li = document.createElement('li');
   // Add class
   li.className = 'collection-item';
